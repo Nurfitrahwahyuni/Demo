@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fef9e7;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px; 
+    margin: 0 auto; 
+    background-color: #f2e6d6; 
+    padding: 30px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #6f4c3e; 
+    text-align: center; 
+    font-size: 2.5em; 
+}
+
+h2 {
+    color: #6f4c3e; 
+    text-align: center; 
+    font-size: 1.5em; 
+}
+
+.add-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-item input {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #c2a88e;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.add-item button {
+    padding: 10px;
+    background-color: #6f4c3e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.add-item button:hover {
+    background-color: #8b5b3e;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    background-color: #d4c1a4; 
+    border: 1px solid #c2a88e; 
+    border-radius: 8px; 
+    margin: 10px 0; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons button {
+    background: none; 
+    border: none;
+    cursor: pointer; 
+}
+
+.icons button:hover {
+    color: #6f4c3e;
+}
+
+.completed.completed-item {
+    background-color: #b7e0a8; 
+    color: #6f4c3e; 
+}
